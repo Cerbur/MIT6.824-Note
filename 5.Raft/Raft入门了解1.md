@@ -74,13 +74,6 @@ Raft协议的每个副本都会处于三种状态之一：Leader(领导)、Follo
 1. leader正在replicate当前term（即term 2）的日志记录给其它Follower，一旦leader确认了这条log entry被majority写盘了，这条log entry就被认为是committed。如图a，S1作为当前term即term2的leader，log index为2的日志被majority写盘了，这条log entry被认为是commited
 2. leader正在replicate更早的term的log entry给其它follower。图b的状态是这么出来的。
 
-作者：丁凯
-链接：https://zhuanlan.zhihu.com/p/27207160
-来源：知乎
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
-
-
-
 **对协议的一点修正**
 
 在实际的协议中，需要进行一些微调，这是因为可能会出现下面这种情况：
