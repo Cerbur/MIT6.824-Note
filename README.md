@@ -22,3 +22,8 @@
 
 开始看 LEC3 GFS，发现旧的b站视频后面会有缺的，所以改看 https://www.bilibili.com/video/BV1R7411t71W
 
+找到点参考资料 mark 一下
+
+- [简介 - MIT6.S081 (gitbook.io)](https://mit-public-courses-cn-translatio.gitbook.io/mit6-s081/)
+- [简介 - MIT6.824 (gitbook.io)](https://mit-public-courses-cn-translatio.gitbook.io/mit6-824/)
+
